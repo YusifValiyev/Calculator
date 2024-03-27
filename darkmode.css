@@ -1,0 +1,71 @@
+:root {
+    --dark-bgcolor1: #1F2029;
+    --dark-bgcolor2: #242830;
+    --dark-btncolor: #2A2E33;
+    --btn-dark-red: #E57373;
+    --btn-dark-blue: #97D8F9;
+}
+
+.calculator-container.dark {
+    background-color: var(--dark-bgcolor2);
+}
+
+.calculator-container.dark #calculator {
+    background-color: var(--dark-bgcolor1);
+    color: white;
+    box-shadow: 0px 4px 5px 2px rgba(58, 58, 58, 0.75);
+
+}
+
+.calculator-container.dark #calculator .calculator-main .display-numbers {
+    color: white;
+}
+
+.calculator-container.dark #calculator .calculator-theme .calculator-theme-btn {
+    background-color: var(--dark-btncolor);
+}
+
+.calculator-container.dark #calculator .calculator-theme .calculator-theme-btn i {
+    color: white;
+}
+
+.calculator-container.dark #calculator .calculator-theme .calculator-theme-btn {
+    background-color: var(--dark-bgcolor2);
+    box-shadow: 0px 4px 5px 2px rgba(58, 58, 58, 0.75);
+
+}
+
+.calculator-container.dark #calculator .calculator-theme .calculator-theme-btn .circle {
+    background-color: var(--dark-bgcolor1);
+    transform: translateX(100%) scale(.8);
+}
+
+.calculator-container.dark #calculator .calculator-theme .calculator-theme-btn .circle i.bi-brightness-high {
+    opacity: 0;
+}
+
+.calculator-container.dark #calculator .calculator-theme .calculator-theme-btn .circle i.bi-moon {
+    opacity: 1;
+}
+
+.calculator-container.dark #calculator .buttons-container {
+    background-color: var(--dark-bgcolor2);
+}
+
+.calculator-container.dark #calculator .buttons-container .btn {
+    background-color: var(--dark-btncolor);
+    box-shadow: 0px 4px 5px 2px rgba(58, 58, 58, 0.75);
+    color: white;
+}
+
+.calculator-container.dark #calculator .buttons-container .btn.btn-red {
+    color: var(--btn-dark-red);
+}
+
+.calculator-container.dark #calculator .buttons-container .btn.btn-blue {
+    color: var(--btn-dark-blue);
+}
+
+.calculator-container.dark #calculator .buttons-container .btn.btn-equal {
+    background-color: var(--btn-dark-red);
+}
